@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* mega menubar */
+/* <i class="fa-solid fa-bars"></i> */
+
+body{
+  font-family: "Mulish", sans-serif;  
+}
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+.color-span{
+    color:rgb(255, 84, 0);
+}
+
+
+/* navbar style starts*/
+.nav-container{
+    width: 85%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.nav-brand{
+    display: flex;
+    align-items: center;
+}
+.nav-brand > h3{
+    color:rgb(19, 19, 24);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 16px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 600;
+    font-size:1.2rem ;
+}
+.nav-items{
+    cursor: pointer;
+}
+
+/* navbar style ends*/
